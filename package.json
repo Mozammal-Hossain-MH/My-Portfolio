@@ -10,11 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@react-three/drei": "^9.105.6",
+    "framer-motion": "^11.2.6",
     "localforage": "^1.10.0",
+    "maath": "^0.10.7",
     "match-sorter": "^6.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.1",
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0",
     "sort-by": "^1.2.0"
   },
   "devDependencies": {
