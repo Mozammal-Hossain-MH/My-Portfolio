@@ -10,7 +10,6 @@ import React, { Suspense } from "react";
 import Loader from "../Loader";
 
 const Ball = (props) => {
-  console.log({ props });
   const [decal] = useTexture([props.imgUrl]);
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
