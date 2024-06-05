@@ -18,6 +18,7 @@ const ProjectCard = ({ index, project }) => {
           />
           <div
             className={`absolute inset-0 flex justify-end m-3 card-img_hover`}
+            title="Click for live link and github repository"
           >
             <div
               onClick={() => window.open(source_code_link, "_blank")}

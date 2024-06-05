@@ -29,7 +29,7 @@ const Navbar = () => {
           />
           <p className={`text-white text-[18px] font-bold cursor-pointer flex`}>
             Mozammal &nbsp;
-            <span className={`sm:block hidden`}>| React Mastery</span>
+            <span className={`sm:block hidden`}>| React Developer</span>
           </p>
         </Link>
         <ul className="list-none hidden md:flex flex-row gap-10 ">

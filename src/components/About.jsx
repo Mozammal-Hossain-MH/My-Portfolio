@@ -16,13 +16,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className={`mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]`}
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        I am a passionate full stack React website developer with extensive
+        experience in building dynamic and responsive web applications.
+        Leveraging a robust stack of modern technologies, I specialize in
+        creating seamless and user-friendly digital experiences. My technical
+        expertise includes{" "}
+        <span className={`font-bold`}>
+          React JS, Node JS, MongoDB, Tailwindcss, Bootstrap, Firebase
+        </span>{" "}
+        etc.
       </motion.p>
       <div className={`mt-20 flex flex-wrap gap-10`}>
         {services?.map((service, i) => (
