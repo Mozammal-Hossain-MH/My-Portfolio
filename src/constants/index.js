@@ -1,36 +1,27 @@
 import {
-  mobile,
   backend,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  figma,
+  git,
+  html,
+  javascript,
+  logo,
+  mobile,
+  mongodb,
+  nodejs,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-  logo,
+  web,
 } from "../assets";
 import Bootstrap from "../assets/Bootstrap.jpeg";
 import firebase from "../assets/firebase.jpeg";
 import github from "../assets/github.png";
+import hrm from "../assets/hrm.png";
 import MHSfashion from "../assets/MHSfashion.png";
 import MHSfoodParadise from "../assets/MHSfoodParadise.png";
-import CarDoctor from "../assets/CarDoctor.png";
+import pastry from "../assets/pastry.png";
 
 export const navLinks = [
   {
@@ -128,7 +119,7 @@ const experiences = [
     company_name: "Webtec",
     icon: logo,
     iconBg: "#383E56",
-    date: "April 2024 - Present",
+    date: "March 2024 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -168,6 +159,61 @@ const testimonials = [
 
 const projects = [
   {
+    name: "HRM System",
+    description: "A handy website that can manage human resource of a company.",
+    credential: {
+      email: "mozammalhossain33@gmail.com",
+      password: "12345678@We",
+    },
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: hrm,
+    live_link: "https://67logics.quickreview.app",
+    source_code_link: "",
+  },
+  {
+    name: "Pastry Shop",
+    description:
+      "Web-based platform that allows users to buy pastry and cookies. This website gives users smooth animation and easy to use features.",
+    credential: {
+      email: "mozammalhossain33@gmail.com",
+      password: "12345678@We",
+    },
+    tags: [
+      {
+        name: "NextJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pastry,
+    live_link: "https://pastry-shop-client.vercel.app",
+    source_code_link: "",
+  },
+  {
     name: "MHS Fashion",
     description:
       "Web-based platform that allows users to shopping from online store and this website gives users to satisfying smooth shopping experience",
@@ -186,6 +232,7 @@ const projects = [
       },
     ],
     image: MHSfashion,
+    live_link: "https://mhs-fashion.web.app",
     source_code_link:
       "https://github.com/Mozammal-Hossain-MH/MHS-fashion-client",
   },
@@ -208,31 +255,10 @@ const projects = [
       },
     ],
     image: MHSfoodParadise,
+    live_link: "https://mhs-food-paradise.web.app",
     source_code_link:
       "https://github.com/Mozammal-Hossain-MH/MHS-Food-Paradise-Client",
   },
-  {
-    name: "Car Doctor",
-    description:
-      "A comprehensive car fix store where everyone can fix their car. ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: CarDoctor,
-    source_code_link:
-      "https://github.com/Mozammal-Hossain-MH/react-car-doctor-client",
-  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };

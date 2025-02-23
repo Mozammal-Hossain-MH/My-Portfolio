@@ -1,10 +1,10 @@
-import React from "react";
 import { motion } from "framer-motion";
+import React from "react";
 
+import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
-import { projects } from "../constants";
 import ProjectCard from "./ProjectCard";
 
 const Works = () => {
